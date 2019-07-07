@@ -13,9 +13,10 @@ public class SentenceParser extends AbstractParser {
     private static final String REG_EXP = "(?<=['\"\"A-Za-z0-9][\\.\\!\\?])\\s+(?=[A-Z])";
     private AbstractParser wordParser;
 
-    public SentenceParser(){
+    public SentenceParser() {
         GeneratorId.generateParserId();
     }
+
     @Override
     public void setNext(AbstractParser wordParser) {
         this.wordParser = wordParser;

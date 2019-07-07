@@ -8,7 +8,6 @@ import java.util.List;
 
 public class Composite implements Component {
 
-    private static final Logger LOGGER = LogManager.getLogger(Composite.class);
     private List<TextComponent> componentList = new ArrayList<>();
 
     @Override

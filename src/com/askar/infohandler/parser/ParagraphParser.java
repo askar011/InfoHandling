@@ -13,7 +13,7 @@ public class ParagraphParser extends AbstractParser {
     private static final String REG_EXP = "\\n\\s";
     private AbstractParser sentenceParser;
 
-    public ParagraphParser(){
+    public ParagraphParser() {
         GeneratorId.generateParserId();
     }
 

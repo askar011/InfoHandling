@@ -2,8 +2,6 @@ package com.askar.infohandler.operation;
 
 import com.askar.infohandler.entity.Composite;
 
-import java.util.List;
-
 public interface Sorter {
 
     void sortParagraphBySentenceCount(Composite composite);

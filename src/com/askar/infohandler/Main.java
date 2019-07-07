@@ -12,10 +12,12 @@ public class Main {
         SorterImpl sorter = new SorterImpl();
         DataReader reader = new DataReader();
         Composite composite = new Composite();
+
         AbstractParser paragraphParser = new ParagraphParser();
         AbstractParser sentenceParser = new SentenceParser();
         AbstractParser wordParser = new WordParser();
         AbstractParser lexemeParser = new LexemeParser();
+
         paragraphParser.setNext(sentenceParser);
         sentenceParser.setNext(wordParser);
         wordParser.setNext(lexemeParser);
@@ -24,8 +26,7 @@ public class Main {
 
         sorter.sortParagraphBySentenceCount(composite);
         sorter.sortSentenceByWords(reader.readText(null));
-
-        System.out.println(sorter.sortSentencesByWordAmount(reader.readText(null)));
+        sorter.sortSentencesByWordAmount(reader.readText(null));
 
     }
 }
