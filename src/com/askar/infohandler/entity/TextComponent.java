@@ -1,11 +1,14 @@
 package com.askar.infohandler.entity;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class TextComponent implements Component {
 
     private TextComponentType componentType;
     private String text;
+    private List<Component> list = new ArrayList<>();
 
     public TextComponent(TextComponentType textComponentType, String text) {
         this.componentType = textComponentType;
@@ -24,7 +27,15 @@ public class TextComponent implements Component {
 
     @Override
     public void add(Component component) {
-        throw new UnsupportedOperationException();
+        list.add(component);
+    }
+
+    public String getText() {
+        return text;
+    }
+
+    public List<Component> getList() {
+        return Collections.unmodifiableList(list);
     }
 
     @Override

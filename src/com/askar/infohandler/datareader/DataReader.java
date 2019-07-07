@@ -10,13 +10,16 @@ public class DataReader {
     private static final Logger LOGGER = LogManager.getLogger(DataReader.class);
     private BufferedReader br;
     private StringBuilder stringBuilder;
-    private static final String FILEPATH = "";
+    private static final String FILEPATH = "data/input.txt";
 
-    public String readText() {
+    public String readText(String filePath) {
+        if (filePath == null) {
+            filePath = FILEPATH;
+        }
         stringBuilder = new StringBuilder();
         String tmp;
         try {
-            br = new BufferedReader(new InputStreamReader(new FileInputStream(FILEPATH)));
+            br = new BufferedReader(new InputStreamReader(new FileInputStream(filePath)));
         } catch (FileNotFoundException e) {
             LOGGER.error(e);
         }

@@ -8,16 +8,27 @@ import org.apache.logging.log4j.Logger;
 
 public class WordParser extends AbstractParser {
 
-    private static final Logger LOGGER = LogManager.getLogger(SentenceParser.class);
-    private LexemeParser lexemeParser;
-    private static final String REG_EXP = "\\w+";
+    private static final Logger LOGGER = LogManager.getLogger(WordParser.class);
+    private static final String REG_EXP = "(\\w+)|(\\s)";
 
-    public WordParser(AbstractParser lexemeParser) {
-        super(lexemeParser);
+    private AbstractParser lexemeParser;
+    private TextComponent component;
+
+    @Override
+    public void setNext(AbstractParser lexemeParser) {
+        this.lexemeParser = lexemeParser;
     }
 
     @Override
-    public void parse(Component composite, String text, String regExp, TextComponentType textComponentType) {
-        super.parse(composite, text, REG_EXP, TextComponentType.WORD);
+    public void parse(Component composite, String text) {
+        String[] split = text.split(REG_EXP);
+        for (int i = 0; i < split.length; i++) {
+            if (lexemeParser != null) {
+                Component wordComponent = new TextComponent(TextComponentType.WORD, split[i]);
+                LOGGER.info(TextComponentType.WORD + " " + i + " :" + split[i]);
+                lexemeParser.parse(wordComponent, split[i]);
+                composite.add(wordComponent);
+            }
+        }
     }
 }

@@ -30,13 +30,12 @@ public class Composite implements Component {
 
     @Override
     public String struct() {
-        if (componentList.isEmpty()) {
-            LOGGER.info("there are no components");
-        } else {
-            for (Component elem : componentList) {
-                elem.struct();
-            }
+        StringBuilder s = new StringBuilder();
+        for (Component component : componentList){
+            s.append(component.struct());
+
         }
-        return "";
+
+        return s.toString();
     }
 }

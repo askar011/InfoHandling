@@ -9,17 +9,25 @@ import org.apache.logging.log4j.Logger;
 public class SentenceParser extends AbstractParser {
 
     private static final Logger LOGGER = LogManager.getLogger(SentenceParser.class);
-    private SymbolParser symbolParser;
-    private static final String REG_EXP = "[(.)(!)(?)]";
+    private static final String REG_EXP = "[.!?]";
+    private AbstractParser wordParser;
+    private TextComponent component;
 
-    public SentenceParser(AbstractParser symbolParser) {
-        super(symbolParser);
+    @Override
+    public void setNext(AbstractParser wordParser) {
+        this.wordParser = wordParser;
     }
 
     @Override
-    public void parse(Component composite, String text, String regExp, TextComponentType textComponentType) {
-        super.parse(composite, text, REG_EXP, TextComponentType.SENTENCE);
+    public void parse(Component paragraphComposite, String text) {
+        String[] split = text.split(REG_EXP);
+        for (int i = 0; i < split.length; i++) {
+            if (wordParser != null) {
+                TextComponent textComponent = new TextComponent(TextComponentType.SENTENCE, split[i]);
+                LOGGER.info(TextComponentType.SENTENCE + " " + i + " :" + split[i]);
+                wordParser.parse(textComponent, split[i]);
+                paragraphComposite.add(textComponent);
+            }
+        }
     }
-
-
 }

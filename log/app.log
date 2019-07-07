@@ -1,0 +1,257 @@
+12:21:54,787 [INFO ] (ParagraphParser.java:27) - PARAGRAPH 0 :  It has survived not only five centuries, but also the leap into electronic
+typesetting, remaining essentially unchanged. It was popularised in the with the
+release of Letraset sheets containing Lorem Ipsum passages, and more recently with
+desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+12:21:54,791 [INFO ] (SentenceParser.java:27) - SENTENCE 0 :  It has survived not only five centuries, but also the leap into electronic
+typesetting, remaining essentially unchanged
+12:21:54,793 [INFO ] (WordParser.java:28) - WORD 0 :
+12:21:54,794 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,795 [INFO ] (WordParser.java:28) - WORD 1 :
+12:21:54,795 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,796 [INFO ] (WordParser.java:28) - WORD 2 :
+12:21:54,796 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,796 [INFO ] (WordParser.java:28) - WORD 3 :
+12:21:54,797 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,797 [INFO ] (WordParser.java:28) - WORD 4 :
+12:21:54,798 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,798 [INFO ] (WordParser.java:28) - WORD 5 :
+12:21:54,799 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,799 [INFO ] (WordParser.java:28) - WORD 6 :
+12:21:54,800 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,800 [INFO ] (WordParser.java:28) - WORD 7 :
+12:21:54,800 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,801 [INFO ] (WordParser.java:28) - WORD 8 :
+12:21:54,801 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,802 [INFO ] (WordParser.java:28) - WORD 9 :
+12:21:54,802 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,802 [INFO ] (WordParser.java:28) - WORD 10 :
+12:21:54,803 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,803 [INFO ] (WordParser.java:28) - WORD 11 :
+12:21:54,804 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,804 [INFO ] (WordParser.java:28) - WORD 12 :
+12:21:54,804 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,805 [INFO ] (WordParser.java:28) - WORD 13 :
+12:21:54,805 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,805 [INFO ] (WordParser.java:28) - WORD 14 :
+12:21:54,806 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,806 [INFO ] (WordParser.java:28) - WORD 15 :,
+12:21:54,807 [INFO ] (LexemeParser.java:28) - LEXEME 0 :,
+12:21:54,807 [INFO ] (WordParser.java:28) - WORD 16 :
+12:21:54,807 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,808 [INFO ] (WordParser.java:28) - WORD 17 :
+12:21:54,808 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,808 [INFO ] (WordParser.java:28) - WORD 18 :
+12:21:54,809 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,809 [INFO ] (WordParser.java:28) - WORD 19 :
+12:21:54,809 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,810 [INFO ] (WordParser.java:28) - WORD 20 :
+12:21:54,810 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,811 [INFO ] (WordParser.java:28) - WORD 21 :
+12:21:54,811 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,811 [INFO ] (WordParser.java:28) - WORD 22 :
+12:21:54,812 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,812 [INFO ] (WordParser.java:28) - WORD 23 :
+12:21:54,812 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,813 [INFO ] (WordParser.java:28) - WORD 24 :
+12:21:54,813 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,813 [INFO ] (WordParser.java:28) - WORD 25 :
+12:21:54,814 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,814 [INFO ] (WordParser.java:28) - WORD 26 :
+12:21:54,814 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,815 [INFO ] (WordParser.java:28) - WORD 27 :
+12:21:54,815 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,815 [INFO ] (WordParser.java:28) - WORD 28 :
+12:21:54,816 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,816 [INFO ] (WordParser.java:28) - WORD 29 :,
+12:21:54,816 [INFO ] (LexemeParser.java:28) - LEXEME 0 :,
+12:21:54,817 [INFO ] (SentenceParser.java:27) - SENTENCE 1 : It was popularised in the with the
+release of Letraset sheets containing Lorem Ipsum passages, and more recently with
+desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+12:21:54,817 [INFO ] (WordParser.java:28) - WORD 0 :
+12:21:54,818 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,818 [INFO ] (WordParser.java:28) - WORD 1 :
+12:21:54,819 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,819 [INFO ] (WordParser.java:28) - WORD 2 :
+12:21:54,820 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,820 [INFO ] (WordParser.java:28) - WORD 3 :
+12:21:54,820 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,820 [INFO ] (WordParser.java:28) - WORD 4 :
+12:21:54,821 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,821 [INFO ] (WordParser.java:28) - WORD 5 :
+12:21:54,821 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,822 [INFO ] (WordParser.java:28) - WORD 6 :
+12:21:54,822 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,822 [INFO ] (WordParser.java:28) - WORD 7 :
+12:21:54,823 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,823 [INFO ] (WordParser.java:28) - WORD 8 :
+12:21:54,824 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,824 [INFO ] (WordParser.java:28) - WORD 9 :
+12:21:54,824 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,824 [INFO ] (WordParser.java:28) - WORD 10 :
+12:21:54,825 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,825 [INFO ] (WordParser.java:28) - WORD 11 :
+12:21:54,825 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,826 [INFO ] (WordParser.java:28) - WORD 12 :
+12:21:54,826 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,826 [INFO ] (WordParser.java:28) - WORD 13 :
+12:21:54,827 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,827 [INFO ] (WordParser.java:28) - WORD 14 :
+12:21:54,828 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,828 [INFO ] (WordParser.java:28) - WORD 15 :
+12:21:54,830 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,830 [INFO ] (WordParser.java:28) - WORD 16 :
+12:21:54,830 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,831 [INFO ] (WordParser.java:28) - WORD 17 :
+12:21:54,831 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,831 [INFO ] (WordParser.java:28) - WORD 18 :
+12:21:54,832 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,832 [INFO ] (WordParser.java:28) - WORD 19 :
+12:21:54,832 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,833 [INFO ] (WordParser.java:28) - WORD 20 :
+12:21:54,833 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,833 [INFO ] (WordParser.java:28) - WORD 21 :
+12:21:54,836 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,836 [INFO ] (WordParser.java:28) - WORD 22 :
+12:21:54,836 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,837 [INFO ] (WordParser.java:28) - WORD 23 :
+12:21:54,837 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,837 [INFO ] (WordParser.java:28) - WORD 24 :
+12:21:54,838 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,838 [INFO ] (WordParser.java:28) - WORD 25 :
+12:21:54,839 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,839 [INFO ] (WordParser.java:28) - WORD 26 :
+12:21:54,839 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,840 [INFO ] (WordParser.java:28) - WORD 27 :
+12:21:54,840 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,841 [INFO ] (WordParser.java:28) - WORD 28 :
+12:21:54,841 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,841 [INFO ] (WordParser.java:28) - WORD 29 :
+12:21:54,842 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,842 [INFO ] (WordParser.java:28) - WORD 30 :,
+12:21:54,842 [INFO ] (LexemeParser.java:28) - LEXEME 0 :,
+12:21:54,843 [INFO ] (ParagraphParser.java:27) - PARAGRAPH 1 : It is a long established fact that a reader will be distracted by the readable
+content of a page when looking at its layout. The point of using Ipsum is that it has a
+more-or-less normal distribution of letters, as [opposed] to - using 'Content here, content
+here', making; it: look like readable English.
+12:21:54,843 [INFO ] (SentenceParser.java:27) - SENTENCE 0 : It is a long established fact that a reader will be distracted by the readable
+content of a page when looking at its layout
+12:21:54,844 [INFO ] (SentenceParser.java:27) - SENTENCE 1 : The point of using Ipsum is that it has a
+more-or-less normal distribution of letters, as [opposed] to - using 'Content here, content
+here', making; it: look like readable English
+12:21:54,845 [INFO ] (WordParser.java:28) - WORD 0 :
+12:21:54,845 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,846 [INFO ] (WordParser.java:28) - WORD 1 :
+12:21:54,846 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,846 [INFO ] (WordParser.java:28) - WORD 2 :
+12:21:54,846 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,847 [INFO ] (WordParser.java:28) - WORD 3 :
+12:21:54,847 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,847 [INFO ] (WordParser.java:28) - WORD 4 :
+12:21:54,848 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,848 [INFO ] (WordParser.java:28) - WORD 5 :
+12:21:54,848 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,849 [INFO ] (WordParser.java:28) - WORD 6 :
+12:21:54,849 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,849 [INFO ] (WordParser.java:28) - WORD 7 :
+12:21:54,849 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,850 [INFO ] (WordParser.java:28) - WORD 8 :
+12:21:54,850 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,850 [INFO ] (WordParser.java:28) - WORD 9 :
+12:21:54,850 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,850 [INFO ] (WordParser.java:28) - WORD 10 :
+12:21:54,851 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,851 [INFO ] (WordParser.java:28) - WORD 11 :
+12:21:54,851 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,851 [INFO ] (WordParser.java:28) - WORD 12 :
+12:21:54,852 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,852 [INFO ] (WordParser.java:28) - WORD 13 :
+12:21:54,852 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,852 [INFO ] (WordParser.java:28) - WORD 14 :
+12:21:54,852 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,853 [INFO ] (WordParser.java:28) - WORD 15 :
+12:21:54,853 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,853 [INFO ] (WordParser.java:28) - WORD 16 :
+12:21:54,853 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,853 [INFO ] (WordParser.java:28) - WORD 17 :
+12:21:54,854 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,854 [INFO ] (WordParser.java:28) - WORD 18 :
+12:21:54,854 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,854 [INFO ] (WordParser.java:28) - WORD 19 :
+12:21:54,855 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,855 [INFO ] (WordParser.java:28) - WORD 20 :
+12:21:54,855 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,855 [INFO ] (WordParser.java:28) - WORD 21 :
+12:21:54,855 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,856 [INFO ] (WordParser.java:28) - WORD 22 :-
+12:21:54,861 [INFO ] (LexemeParser.java:28) - LEXEME 0 :-
+12:21:54,861 [INFO ] (WordParser.java:28) - WORD 23 :-
+12:21:54,862 [INFO ] (LexemeParser.java:28) - LEXEME 0 :-
+12:21:54,862 [INFO ] (WordParser.java:28) - WORD 24 :
+12:21:54,862 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,862 [INFO ] (WordParser.java:28) - WORD 25 :
+12:21:54,863 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,863 [INFO ] (WordParser.java:28) - WORD 26 :
+12:21:54,863 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,864 [INFO ] (WordParser.java:28) - WORD 27 :
+12:21:54,864 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,864 [INFO ] (WordParser.java:28) - WORD 28 :
+12:21:54,865 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,865 [INFO ] (WordParser.java:28) - WORD 29 :
+12:21:54,865 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,866 [INFO ] (WordParser.java:28) - WORD 30 :
+12:21:54,866 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,866 [INFO ] (WordParser.java:28) - WORD 31 :
+12:21:54,869 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,873 [INFO ] (WordParser.java:28) - WORD 32 :,
+12:21:54,874 [INFO ] (LexemeParser.java:28) - LEXEME 0 :,
+12:21:54,874 [INFO ] (WordParser.java:28) - WORD 33 :
+12:21:54,874 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,875 [INFO ] (WordParser.java:28) - WORD 34 :
+12:21:54,875 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,875 [INFO ] (WordParser.java:28) - WORD 35 :[
+12:21:54,876 [INFO ] (LexemeParser.java:28) - LEXEME 0 :[
+12:21:54,876 [INFO ] (WordParser.java:28) - WORD 36 :]
+12:21:54,876 [INFO ] (LexemeParser.java:28) - LEXEME 0 :]
+12:21:54,877 [INFO ] (WordParser.java:28) - WORD 37 :
+12:21:54,877 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,878 [INFO ] (WordParser.java:28) - WORD 38 :
+12:21:54,879 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,880 [INFO ] (WordParser.java:28) - WORD 39 :-
+12:21:54,881 [INFO ] (LexemeParser.java:28) - LEXEME 0 :-
+12:21:54,881 [INFO ] (WordParser.java:28) - WORD 40 :
+12:21:54,881 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,882 [INFO ] (WordParser.java:28) - WORD 41 :
+12:21:54,882 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,882 [INFO ] (WordParser.java:28) - WORD 42 :'
+12:21:54,882 [INFO ] (LexemeParser.java:28) - LEXEME 0 :'
+12:21:54,882 [INFO ] (WordParser.java:28) - WORD 43 :
+12:21:54,883 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,883 [INFO ] (WordParser.java:28) - WORD 44 :
+12:21:54,883 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,883 [INFO ] (WordParser.java:28) - WORD 45 :,
+12:21:54,884 [INFO ] (LexemeParser.java:28) - LEXEME 0 :,
+12:21:54,884 [INFO ] (WordParser.java:28) - WORD 46 :
+12:21:54,884 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,884 [INFO ] (WordParser.java:28) - WORD 47 :
+12:21:54,885 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,885 [INFO ] (WordParser.java:28) - WORD 48 :
+12:21:54,885 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,886 [INFO ] (WordParser.java:28) - WORD 49 :',
+12:21:54,886 [INFO ] (LexemeParser.java:28) - LEXEME 0 :',
+12:21:54,886 [INFO ] (WordParser.java:28) - WORD 50 :
+12:21:54,886 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,887 [INFO ] (WordParser.java:28) - WORD 51 :;
+12:21:54,887 [INFO ] (LexemeParser.java:28) - LEXEME 0 :;
+12:21:54,888 [INFO ] (WordParser.java:28) - WORD 52 :
+12:21:54,888 [INFO ] (LexemeParser.java:28) - LEXEME 0 :
+12:21:54,889 [INFO ] (WordParser.java:28) - WORD 53 ::
+12:21:54,889 [INFO ] (LexemeParser.java:28) - LEXEME 0 ::
+12:21:54,889 [INFO ] (ParagraphParser.java:27) - PARAGRAPH 2 :  It is a established fact that a reader will be of a page when looking at its
+layout.
+12:21:54,890 [INFO ] (SentenceParser.java:27) - SENTENCE 0 :  It is a established fact that a reader will be of a page when looking at its
+layout
+12:21:54,890 [INFO ] (ParagraphParser.java:27) - PARAGRAPH 3 :  Bye!
+
+12:21:54,891 [INFO ] (SentenceParser.java:27) - SENTENCE 0 :  Bye
+12:21:54,891 [INFO ] (SentenceParser.java:27) - SENTENCE 1 :
+
