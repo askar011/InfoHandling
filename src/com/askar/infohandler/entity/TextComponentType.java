@@ -5,8 +5,7 @@ public enum TextComponentType {
     WORD,
     PARAGRAPH,
     SENTENCE,
-    LEXEME,
-    SYMBOL
+    LEXEME
 
 
 }

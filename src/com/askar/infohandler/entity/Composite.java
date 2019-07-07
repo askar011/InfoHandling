@@ -1,21 +1,19 @@
 package com.askar.infohandler.entity;
 
-import com.askar.infohandler.datareader.DataReader;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 public class Composite implements Component {
 
     private static final Logger LOGGER = LogManager.getLogger(Composite.class);
-    private List<Component> componentList = new ArrayList<>();
+    private List<TextComponent> componentList = new ArrayList<>();
 
     @Override
     public void add(Component component) {
-        componentList.add(component);
+        componentList.add((TextComponent) component);
     }
 
     @Override
@@ -24,18 +22,16 @@ public class Composite implements Component {
     }
 
     @Override
-    public List<Component> getComponentList() {
-        return Collections.unmodifiableList(componentList);
+    public List<TextComponent> getComponentList() {
+        return componentList;
     }
 
     @Override
     public String struct() {
-        StringBuilder s = new StringBuilder();
-        for (Component component : componentList){
-            s.append(component.struct());
-
+        StringBuilder stringBuilder = new StringBuilder();
+        for (int i = 0; i < componentList.size(); i++) {
+            stringBuilder.append(componentList.get(i).getText());
         }
-
-        return s.toString();
+        return stringBuilder.toString();
     }
 }

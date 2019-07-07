@@ -44,7 +44,7 @@ public class TextComponent implements Component {
     }
 
     @Override
-    public List<Component> getComponentList() {
+    public List<TextComponent> getComponentList() {
         throw new UnsupportedOperationException();
     }
 }

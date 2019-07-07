@@ -3,6 +3,7 @@ package com.askar.infohandler.parser;
 import com.askar.infohandler.entity.Component;
 import com.askar.infohandler.entity.TextComponent;
 import com.askar.infohandler.entity.TextComponentType;
+import com.askar.infohandler.util.GeneratorId;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -11,7 +12,10 @@ public class ParagraphParser extends AbstractParser {
     private static final Logger LOGGER = LogManager.getLogger(ParagraphParser.class);
     private static final String REG_EXP = "\\n\\s";
     private AbstractParser sentenceParser;
-    private TextComponent component;
+
+    public ParagraphParser(){
+        GeneratorId.generateParserId();
+    }
 
     @Override
     public void setNext(AbstractParser sentenceParser) {

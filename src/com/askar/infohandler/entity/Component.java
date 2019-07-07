@@ -10,6 +10,6 @@ public interface Component {
 
     void remove(Component component);
 
-    List<Component> getComponentList();
+    List<TextComponent> getComponentList();
 
 }
